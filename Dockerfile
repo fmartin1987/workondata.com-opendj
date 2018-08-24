@@ -20,6 +20,8 @@ RUN /opt/opendj/setup \
           --noPropertiesFile \
           --acceptLicense
 
+COPY files/99-custom.ldif /opt/opendj/config/schema/99-custom.ldif
+
 COPY files/entrypoint.sh /
 RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]

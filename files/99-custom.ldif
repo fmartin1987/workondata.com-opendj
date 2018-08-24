@@ -1,0 +1,9 @@
+dn: cn=schema
+objectClass: top
+objectClass: ldapSubentry
+objectClass: subschema
+cn: schema
+objectClasses: ( 1.3.6.1.4.1.36733.2.1.2.50 NAME ( 'JIRAuser' ) DESC 'Users with access to JIRA' AUXILIARY X-ORIGIN 'WOD Internal OID' )
+objectClasses: ( 1.3.6.1.4.1.36733.2.1.2.51 NAME ( 'JIRAgroup' ) DESC 'Groups mapped with JIRA' AUXILIARY X-ORIGIN 'WOD Internal OID' )
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20150929152202Z
